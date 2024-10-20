@@ -1,4 +1,5 @@
 @echo off
+start /wait bitsadmin /transfer blacklist https://p.thenewone.lol/domains-export.txt "%CD%\russia-blacklist.txt"
 start "zapret: http,https,quic,discord" /min "%~dp0winws.exe" ^
 --wf-tcp=80,443 --wf-udp=443,50000-50020 ^
 --filter-udp=443 --hostlist="%~dp0russia-youtubeQ.txt" --dpi-desync=fake --dpi-desync-repeats=2 --dpi-desync-cutoff=n2 --dpi-desync-fake-quic="%~dp0quic_pl_by_ori.bin" --new ^
