@@ -14,7 +14,8 @@
 1. Заходите в релизы справа. Скачивате архив с последней версией
 2. Распаковываете в любую удобную папку (БЕЗ ПРОБЕЛОВ И СПЕЦ СИМОВОЛОВ ДО ПАПКИ). Лучше создайте папку C:\Tools\ и распакуйте архив в неё
 ![{1DCC7BBE-571F-4058-9BF7-F0E90CA2A667}](https://github.com/user-attachments/assets/102eb911-71f2-4f5a-9c35-ec397d6f5910)
-3. Запускаете manual_start_preset_russia.cmd или manual_start_preset_russia_noattl.cmd (ТОЛЬКО ОДИН В ОДИН МОМЕНТ) и проверяете работу Discord\Youtube
+3. Запускаете от имени администратора manual_start_preset_russia.cmd или manual_start_preset_russia_noattl.cmd (ТОЛЬКО ОДИН В ОДИН МОМЕНТ) и проверяете работу Discord\Youtube
+4. Сворачиваете окно. Оно должно быть постоянно запущено для работы обхода блокировок
 
 # Краткое описание файлов
 winws.exe : главный компонент zapret, средство обхода DPI, версия nfqws для windows
